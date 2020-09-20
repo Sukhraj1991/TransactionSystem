@@ -1,0 +1,3 @@
+Credit;5500;Amount Deposited;9/20/2020;5500;1 
+Debit;2500;Amount debited;9/20/2020;3000;2 
+Credit;300;credit;9/20/2020;3300;3 

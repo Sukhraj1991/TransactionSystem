@@ -1,0 +1,41 @@
+﻿
+    @model TransactionSystem.Models.AddTransactionModel;
+<div><h1>Add Transactions</h1></div>
+<form asp-controller="Home" asp-action="AddTransaction" method="post">
+    <div class="container">
+
+        <br />
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+
+                <div class="form-group">
+                    <label asp-for="TransactionType" id="StudentClasslbl"></label>
+                    <Select asp-for="TransactionType" class="form-control" asp-items="ViewBag.TransactionType">
+                    </Select>
+
+                </div>
+                <div class="form-group">
+
+                    <label asp-for="Amount"></label>
+                    <input asp-for="Amount" class="form-control" />
+                    <span asp-validation-for="Amount" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+
+                    <label asp-for="Descreption"></label>
+                    <input asp-for="Descreption" class="form-control" />
+                    <span asp-validation-for="Descreption" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+
+                    <input type="submit" value="Save" />
+                    <input type="reset" value="Cancel" />
+                </div>
+            </div>
+        </div>
+
+    </div>
+</form>

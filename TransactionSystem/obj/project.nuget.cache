@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "r+WTaTqIqLyucLlOdzqopZCRrleXV+Su3bgBTWYod+anrP+6VqSozTGWl4dOlfJBR1NI/w5+58zWRvHizGJb5w==",
+  "success": true,
+  "projectFilePath": "D:\\Sukhraj\\TransactionSystem\\TransactionSystem\\TransactionSystem.csproj",
+  "expectedPackageFiles": [
+    "D:\\Users\\smohd\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
